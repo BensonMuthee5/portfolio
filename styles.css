@@ -114,13 +114,14 @@ h1 {
     font-size: 24px; /* Original font size */
     transition: background 0.3s; /* Enable smooth background transition */
     z-index: 1000; /* Ensure it's above other elements */
-    width: 60px; /* Set the original width */
-    height: 60px; /* Set the original height */
+    width: 50px; /* Reduced width */
+    height: 50px; /* Reduced height */
 }
 
 .whatsapp-button:hover {
     background-color: #128C7E; /* Original hover color */
 }
+
 
 
 /* Main Content Sections */
