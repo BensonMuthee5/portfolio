@@ -101,17 +101,18 @@ h1 {
 
 /* WhatsApp Button */
 .whatsapp-button {
-    position: fixed; /* Change to fixed for floating effect */
-    top: 50%; /* Center it vertically */
-    right: 20px; /* Keep it aligned on the right */
-    transform: translateY(-50%); /* Center it perfectly */
-    background-color: #25D366; /* Original background color */
-    color: white; /* Original text color */
-    border-radius: 50%; /* Keep it circular */
-    padding: 10px; /* Original padding */
-    text-decoration: none; /* No underline on link */
-    font-size: 24px; /* Original font size */
-    transition: background 0.3s; /* Enable smooth background transition */
+    position: fixed; 
+    top: 50%; 
+    right: 20px; 
+    transform: translateY(-50%);
+    background-color: #25D366; 
+    color: white; 
+    border-radius: 50%; /
+    padding: 10px; 
+    text-decoration: none; 
+    font-size: 24px;
+    transition: background 0.3s;
+    z-index: 1000;
 }
 
 .whatsapp-button:hover {
