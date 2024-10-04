@@ -103,7 +103,7 @@ h1 {
 
 .whatsapp-button {
     position: fixed; /* Keep it floating */
-    top: 50%; /* Center it vertically */
+    top: 60%; /* Center it vertically */
     right: 20px; /* Align on the right */
     transform: translateY(-50%); /* Center it perfectly */
     background-color: #25D366; /* Original background color */
