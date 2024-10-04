@@ -100,37 +100,41 @@ h1 {
 }
 
 /* WhatsApp Button */
+
 .whatsapp-button {
   position: fixed;
-  top: 50%; /* Position it in the middle of the page */
+  top: 50%; /* Keep it in the middle of the page */
   right: 20px; /* Align on the right */
   transform: translateY(-50%);
   z-index: 100;
-  width: 60px; /* Fixed width */
-  height: 60px; /* Fixed height to avoid distortion */
+  width: 60px; /* Keep the original width */
+  height: 60px; /* Keep the original height */
   border-radius: 50%; /* Keep the button circular */
+  background-color: #25D366; /* Keep original background color */
+  transition: background-color 0.3s ease; /* Enable hover effect */
 }
 
-/* Media query for screens smaller than 768px (tablets and phones) */
+/* Hover effect */
+.whatsapp-button:hover {
+  background-color: #128C7E; /* Change the color on hover */
+}
+
+/* Media query for screens smaller than 768px */
 @media only screen and (max-width: 768px) {
   .whatsapp-button {
-    top: 40%; /* Adjust position for smaller screens */
-    right: 15px; /* Adjust padding for smaller screens */
-    width: 50px; /* Adjust width */
-    height: 50px; /* Adjust height */
+    top: 45%; /* Adjust position for smaller screens */
+    right: 15px; /* Adjust padding */
+    /* Keep the same size */
   }
 }
 
-/* Media query for screens smaller than 480px (small phones) */
+/* Media query for screens smaller than 480px */
 @media only screen and (max-width: 480px) {
   .whatsapp-button {
-    top: 35%; /* Further adjustment for very small screens */
-    right: 10px; /* Adjust padding to fit the screen */
-    width: 45px; /* Adjust width */
-    height: 45px; /* Adjust height */
+    top: 40%; /* Adjust further for very small screens */
+    right: 10px; /* Adjust right padding */
+    /* Keep the same size */
   }
-}
-
 }
 
 
