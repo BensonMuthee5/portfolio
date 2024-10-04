@@ -102,7 +102,8 @@ h1 {
 /* WhatsApp Button */
 .whatsapp-button {
     position: fixed;
-    bottom: 60px;
+    top: 50%;
+    transform: translateY(-50%);
     right: 20px;
     background-color: #25D366;
     color: white;
