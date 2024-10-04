@@ -107,6 +107,7 @@ h1 {
   right: 20px; /* Align on the right */
   transform: translateY(-50%);
   z-index: 100;
+  padding: 10px;
   width: 60px; /* Keep the original width */
   height: 60px; /* Keep the original height */
   border-radius: 50%; /* Keep the button circular */
@@ -123,7 +124,8 @@ h1 {
 @media only screen and (max-width: 768px) {
   .whatsapp-button {
     top: 45%; /* Adjust position for smaller screens */
-    right: 15px; /* Adjust padding */
+    right: 15px;
+    padding: 10px;
     /* Keep the same size */
   }
 }
