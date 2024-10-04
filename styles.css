@@ -122,15 +122,13 @@ h1 {
     background-color: #128C7E;
 }
 /*smaller screens*/
-@media (max-width: 480px) {
-    .whatsapp-button {
-        bottom: 15px; 
-        right: 15px; 
-        padding: 10px; 
-        font-size: 20px;
-
-    }
-}  
+@media only screen and (max-width: 768px) {
+  .whatsapp-button {
+    width: 50px; /* Adjust width for smaller screens */
+    height: 50px; /* Adjust height for smaller screens */
+    right: 15px; /* Adjust right padding if necessary */
+  }
+}
 
 /* Main Content Sections */
 main {
