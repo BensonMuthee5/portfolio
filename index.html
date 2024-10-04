@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="header-buttons">
+                <a href="https://github.com/BensonMuthee5" class="button github-button" target="_blank">GitHub Profile</a>
+                <a href="images/audacity cv.pdf" class="button" download="My_Resume.pdf">Download CV</a>
+            </div>
+
+
+
+        </nav>
+        <div class="header-content">
+            <img src="images/ben.jpg" alt="Your Name" class="profile-pic">
+            <h1>Hi, I am Benson Muthee</h1>
+        </div>
+        <a href="https://wa.me/+254708035693" class="whatsapp-button" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a motivated and adaptable professional with a strong desire to embrace new challenges. Driven by a passion for continuous learning, I strive to deliver exceptional results in every endeavor. With a positive attitude and a growth mindset, I am committed to making meaningful contributions and achieving remarkable success. I thrive in dynamic environments where I can leverage my skills and creativity to drive innovation and foster collaboration.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Software Engineering</li>
+                <li>Data Analysis</li>
+                <li>CRM Systems</li>
+                <li>Web Development</li>
+                <li>Graphic Design</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3>BBS Parking Management System</h3>
+                    <p>Created as my final year project, the BBS Parking Management System streamlines parking operations with real-time updates, reservations, and payment processing. <a href="link-to-project" target="_blank">View Project</a></p>
+                </div>
+                <div class="project">
+                    <h3>Autocare Kenya</h3>
+                    <p>As an intern at SafetyPlus Consulting Ltd, I collaborated on the Autocare Kenya website, contributing to its design and user experience under an outsourced designer's guidance. <a href="https://www.autocarekenya.co.ke/" target="_blank">View Project</a></p>
+                </div>
+                <div class="project">
+                    <h3>My Portfolio</h3>
+                    <p>My Portfolio website showcases my skills and projects, featuring sections like "About Me," "Projects," and "Contact" for an engaging presentation of my professional journey. <a href="link-to-project" target="_blank">View Project</a></p>
+                </div>
+                <div class="project">
+                    <h3>Lisbon Fashion</h3>
+                    <p>Lisbon Fashion is an upcoming e-commerce site I am developing, focused on providing a vibrant platform for fashion enthusiasts with product listings and secure payment options.<a href="link-to-project" target="_blank">View Project</a></p>
+                </div>
+                
+
+            </div>
+        </section>
+
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="certifications-grid">
+                <!-- Certification 1 -->
+                <div class="certificate-item">
+                    <a href="https://coursera.org/share/3bf84263d7af3bc889348cc38e32082a" target="_blank">
+                        <img src="images/crmover.png" alt="Salesforce CRm">
+                    </a>
+                </div>
+        
+                <!-- Certification 2 -->
+                <div class="certificate-item">
+                    <a href="https://coursera.org/share/b4ef424217c1205747914c069c3f3d44" target="_blank">
+                        <img src="images/crdcs.png" alt="Salesforce">
+                    </a>
+                </div>
+        
+                <!-- Certification 3 -->
+                <div class="certificate-item">
+                    <a href="https://coursera.org/share/8062d0361a05167b063fe29edf664c73" target="_blank">
+                        <img src="images/leads.png" alt="Lead Management">
+                    </a>
+                </div>
+        
+                <!-- Certification 4 -->
+                <div class="certificate-item">
+                    <a href="https://coursera.org/share/67f1529a8673878481fdcbf9186ab705" target="_blank">
+                        <img src="images/deverywhere.png" alt="Data Science">
+                    </a>
+                </div>
+
+                <!-- Certification 5 -->
+                <div class="certificate-item">
+                    <a href="https://coursera.org/share/151036c0f9e78916f07bac4ec56784eb" target="_blank">
+                        <img src="images/dscience.png" alt="Certification 4">
+                    </a>
+                </div>
+
+
+                  <!-- Certification 6 -->
+                <div class="certificate-item">
+                    <a href="https://coursera.org/share/9726032b52f11e824b88d0fee488eb2e" target="_blank">
+                        <img src="images/cyber.png" alt="Certification 4">
+                    </a>
+                </div>
+        
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach me at: <a href="tel:+254708035693">+254 708 035 693</a></p>
+            <form action="https://formspree.io/f/xqazrpqj" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" required></textarea>
+                
+                <button type="submit" class="button">Send Message</button>
+            </form>
+            
+        </section>
+        
+    </main>
+
+    
+<button id="returnToTopBtn" class="return-to-top" title="Go to top">↑ Top</button>
+
+
+    <footer>
+        <p>&copy; 2024 Benson Muthee. All rights reserved.</p>
+    </footer>
+
+    <script src="benscripts.js"></script>
+</body>
+
+</html>
