@@ -316,21 +316,32 @@ footer {
 .return-to-top {
     display: none; 
     position: fixed; 
-    bottom: 40px;
-    right: 40px; 
+    bottom: 20px;
+    right: 20px; 
     z-index: 99; 
     border: none; 
     outline: none; 
     background-color: #007BFF; 
     color: white; 
     cursor: pointer; 
-    padding: 15px; 
-    border-radius: 10px; 
-    font-size: 18px; 
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 16px; 
     transition: opacity 0.3s ease; 
 }
 
 .return-to-top:hover {
     background-color: #0056b3;
+}
+
+/* Media query for smaller screens*/
+@media (max-width: 480px){
+.return-to-top{
+  display: block;
+  Padding: 8px;
+  Font-size: 14px;
+  bottom: 10px;
+  right:10px;
+}
 }
 
