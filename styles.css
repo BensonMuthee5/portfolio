@@ -101,27 +101,17 @@ h1 {
 
 /* WhatsApp Button */
 .whatsapp-button {
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 20px;
-    background-color: #25D366;
-    color: white;
-    border-radius: 50%;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 24px;
-    z-index: 100;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: background 0.3s ease;
-    display: flex;
-    justify-content: center;
+  position: fixed;
+  top: 50%; /* Keep it in the middle of the page */
+  right: 20px; /* Align it with the return to top button */
+  transform: translateY(-50%);
+  z-index: 100;
+  width: 60px; /* Set a fixed width */
+  height: 60px; /* Set a fixed height to prevent distortion */
+  border-radius: 50%; /* Make sure the button remains circular */
 }
 
-.whatsapp-button:hover {
-    background-color: #128C7E;
-}
-/*smaller screens*/
+/* Media query for smaller screens */
 @media only screen and (max-width: 768px) {
   .whatsapp-button {
     width: 50px; /* Adjust width for smaller screens */
@@ -129,6 +119,7 @@ h1 {
     right: 15px; /* Adjust right padding if necessary */
   }
 }
+
 
 /* Main Content Sections */
 main {
