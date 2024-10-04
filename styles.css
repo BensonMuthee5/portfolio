@@ -99,7 +99,6 @@ h1 {
     font-size: 2em;
 }
 
-/*whatsapp part*/
 /* WhatsApp Button */
 .whatsapp-button {
     position: fixed; /* Change to fixed for floating effect */
@@ -118,6 +117,7 @@ h1 {
 .whatsapp-button:hover {
     background-color: #128C7E; /* Original hover color */
 }
+
 
 
 
