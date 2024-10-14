@@ -312,21 +312,22 @@ footer {
         width: 100%;
     }
 }
+
 /* Return to Top Button */
 .return-to-top {
     display: none; 
     position: fixed; 
-    bottom: 40px;
-    right: 40px; 
+    bottom: 20px; /* Adjusted for smaller screens */
+    right: 20px; /* Adjusted for smaller screens */
     z-index: 99; 
     border: none; 
     outline: none; 
     background-color: #007BFF; 
     color: white; 
     cursor: pointer; 
-    padding: 15px; 
-    border-radius: 10px; 
-    font-size: 18px; 
+    padding: 10px; /* Reduced padding */
+    border-radius: 5px; /* Reduced border-radius */
+    font-size: 16px; /* Reduced font size */
     transition: opacity 0.3s ease; 
 }
 
@@ -334,3 +335,13 @@ footer {
     background-color: #0056b3;
 }
 
+/* Media Query for Smaller Screens */
+@media (max-width: 480px) {
+    .return-to-top {
+        display: block; /* Show button on mobile devices */
+        padding: 8px; /* Further reduce padding */
+        font-size: 14px; /* Further reduce font size */
+        bottom: 10px; /* Position adjustment */
+        right: 10px; /* Position adjustment */
+    }
+}
