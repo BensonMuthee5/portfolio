@@ -100,22 +100,29 @@ h1 {
 }
 
 /* WhatsApp Button */
+
 .whatsapp-button {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: #25D366;
-    color: white;
-    border-radius: 50%;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 24px;
-    transition: background 0.3s;
+    position: fixed; /* Keep it floating */
+    top: 45%; /* Center it vertically */
+    right: 20px; /* Align on the right */
+    transform: translateY(-50%); /* Center it perfectly */
+    background-color: #25D366; /* Original background color */
+    color: white; /* Original text color */
+    border-radius: 50%; /* Keep it circular */
+    padding: 10px; /* Original padding */
+    text-decoration: none; /* No underline on link */
+    font-size: 24px; /* Original font size */
+    transition: background 0.3s; /* Enable smooth background transition */
+    z-index: 1000; /* Ensure it's above other elements */
+    width: 50px; /* Reduced width */
+    height: 50px; /* Reduced height */
 }
 
 .whatsapp-button:hover {
-    background-color: #128C7E;
+    background-color: #128C7E; /* Original hover color */
 }
+
+
 
 /* Main Content Sections */
 main {
@@ -325,9 +332,15 @@ footer {
     background-color: #007BFF; 
     color: white; 
     cursor: pointer; 
+<<<<<<< HEAD
     padding: 10px; /* Reduced padding */
     border-radius: 5px; /* Reduced border-radius */
     font-size: 16px; /* Reduced font size */
+=======
+    padding: 15px; 
+    border-radius: 50px; 
+    font-size: 18px; 
+>>>>>>> 967d8a3d751719b438a938208c2b04f0f0cad6ac
     transition: opacity 0.3s ease; 
 }
 
@@ -335,6 +348,7 @@ footer {
     background-color: #0056b3;
 }
 
+<<<<<<< HEAD
 /* Media Query for Smaller Screens */
 @media (max-width: 480px) {
     .return-to-top {
@@ -345,3 +359,19 @@ footer {
         right: 10px; /* Position adjustment */
     }
 }
+=======
+/* Media query for smaller screens*/
+@media (max-width: 480px){
+.return-to-top{
+  display: block;
+  width: 40px;
+  height:40px;
+  Padding: 0px;
+  Font-size: 14px;
+  bottom: 20px;
+  right:20px;
+  border-radius: 50%;
+}
+}
+
+>>>>>>> 967d8a3d751719b438a938208c2b04f0f0cad6ac
