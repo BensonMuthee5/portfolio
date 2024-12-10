@@ -324,23 +324,17 @@ footer {
 .return-to-top {
     display: none; 
     position: fixed; 
-    bottom: 20px; /* Adjusted for smaller screens */
-    right: 20px; /* Adjusted for smaller screens */
+    bottom: 20px; 
+    right: 20px; 
     z-index: 99; 
     border: none; 
     outline: none; 
     background-color: #007BFF; 
     color: white; 
     cursor: pointer; 
-<<<<<<< HEAD
-    padding: 10px; /* Reduced padding */
-    border-radius: 5px; /* Reduced border-radius */
-    font-size: 16px; /* Reduced font size */
-=======
-    padding: 15px; 
-    border-radius: 50px; 
-    font-size: 18px; 
->>>>>>> 967d8a3d751719b438a938208c2b04f0f0cad6ac
+    padding: 15px; /* Default padding for larger screens */
+    border-radius: 50px; /* Circular shape for larger screens */
+    font-size: 18px; /* Default font size for larger screens */
     transition: opacity 0.3s ease; 
 }
 
@@ -348,30 +342,16 @@ footer {
     background-color: #0056b3;
 }
 
-<<<<<<< HEAD
 /* Media Query for Smaller Screens */
 @media (max-width: 480px) {
     .return-to-top {
-        display: block; /* Show button on mobile devices */
-        padding: 8px; /* Further reduce padding */
-        font-size: 14px; /* Further reduce font size */
+        display: block; /* Ensure the button is visible on small screens */
+        width: 40px; /* Adjusted width for smaller screens */
+        height: 40px; /* Adjusted height for smaller screens */
+        padding: 0; /* Remove additional padding */
+        font-size: 14px; /* Reduced font size */
         bottom: 10px; /* Position adjustment */
-        right: 10px; /* Position adjustment */
+        right: 30px; /* Position adjustment */
+        border-radius: 50%; /* Keep circular shape */
     }
 }
-=======
-/* Media query for smaller screens*/
-@media (max-width: 480px){
-.return-to-top{
-  display: block;
-  width: 40px;
-  height:40px;
-  Padding: 0px;
-  Font-size: 14px;
-  bottom: 20px;
-  right:20px;
-  border-radius: 50%;
-}
-}
-
->>>>>>> 967d8a3d751719b438a938208c2b04f0f0cad6ac
